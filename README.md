@@ -5,6 +5,9 @@
   <img src="./introduce.gif" width="600"/>
 </div>
 
+> ⚠️ **안내**: 주 계정 이전(`jga-eun` → `gaeun-jay`)으로 인해 기존 계정인 [@jga-eun](https://github.com/jga-eun) 에서 fork 해 온 프로젝트입니다. 프로젝트 원본 레포지토리 링크는 다음과 같습니다.
+> - 원본: [jga-eun/DISS_Public](https://github.com/jga-eun/DISS_Public)
+
 ## 프로젝트 배경 및 목적
 
 기존 대학생 커뮤니티 플랫폼에서 발견한 문제를 해결하기 위해 시작한 프로젝트입니다.

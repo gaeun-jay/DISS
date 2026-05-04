@@ -98,6 +98,27 @@
 
 ---
 
+## 관련 논문
+
+본 프로젝트는 **클라우드컴퓨팅AI** 수업 과제로 진행되었으며, 아래 논문으로 연구 결과를 정리하였습니다.
+
+> **Microsoft Azure를 활용한 통합 교육 웹 플랫폼 DISS 개발**
+> *이다영, 이정연, 이채원, 정가은 · 성신여자대학교 AI융합학부*
+> 📄 [논문 보기](./DISS_paper.pdf)
+
+**연구 요약**
+
+에브리타임의 주요 단점인 비방성 게시글, 무응답 질의응답, 홍보글 범람 문제를 해결하기 위해 Microsoft Azure 기반 통합 교육 웹 플랫폼 DISS를 개발하였습니다. Azure Translator, Speech SDK, Content Moderator, SQL Database, App Services 등을 활용하였으며, 성신여자대학교 학생 76명을 대상으로 한 설문 결과 에브리타임의 가장 큰 불만인 욕설·비속어 문제(78.9%)를 중점적으로 개선하였습니다.
+
+| 항목 | 내용 |
+|------|------|
+| 주요 기술 | Azure Translator, Speech SDK, Content Moderator |
+| 데이터베이스 | Microsoft SQL Server (403개 대학원 데이터) |
+| 배포 방식 | Azure App Services (PHP + Linux + FTPS) |
+| 향후 개선 | Azure ML 기반 대학원 추천 시스템 |
+
+---
+
 ## 미구현 기능
 
 아래 Azure 모듈을 학습하고 개발하였으나, 보안 정책 및 기타 오류 등의 문제로 배포 단계까지 구현하지 못했습니다.
@@ -125,6 +146,7 @@ DISS-main/
 ├── profile.html / profile-*.html  # 프로필
 ├── speech.js                      # Azure TTS
 ├── translator.js                  # Azure 번역
+├── DISS_paper.pdf                 # 프로젝트 논문문
 └── styles.css / st_*.css          # 스타일시트
 ```
 
